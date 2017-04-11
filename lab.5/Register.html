@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<meta charset="utf-8">
+<body>
+<table cellpadding="3" border="1" cellspacing="0" align="center" width="550">
+<tr>
+	<td>用户名：</td>
+	<td><input type="text" name="yonghuming"></td>
+</tr>
+<tr>
+	<td>密码：</td>
+	<td><input type="text" name="mima"></td>
+</tr>
+<tr>
+	<td>确认密码：</td>
+	<td><input type="text" name="querenmima"></td>
+</tr>
+<tr>
+	<td>性别：</td>
+	<td>
+	    <form>
+	          <input type="radio" name="sex" value="男">男
+	          <input type="radio" name="sex" value="女">女
+	    </form>
+	</td>
+</tr>
+<tr>
+	<td>生日：</td>
+	<td>
+		<form>
+			<select name="公历或阴历">
+			    <option value="first">公历</option>
+			    <option value="second">阴历</option>
+			</select>
+			<select name="年">
+			    <option value="年">年</option>
+				<option value="first">2017</option>
+				<option value="second">2016</option>
+				<option value="third">2015</option>
+				<option value="forth">2014</option>
+			</select>
+			<select name="月">
+			    <option value="月">月</option>
+				<option value="first">01</option>
+				<option value="second">02</option>
+				<option value="third">03</option>
+				<option value="forth">04</option>
+				<option value="fifth">05</option>
+				<option value="sixth">06</option>
+				<option value="seventh">07</option>
+				<option value="eighth">08</option>
+				<option value="ninth">09</option>
+				<option value="tenth">10</option>
+				<option value="eleven">11</option>
+				<option value="twelve">12</option>
+			</select>
+			<select name="日">日
+			    <option value="日">日</option>
+				<option value="first">1</option>
+				<option value="second">2</option>
+				<option value="third">3</option>
+				<option value="forth">4</option>
+				<option value="fifth">5</option>
+				<option value="sixth">6</option>
+				<option value="seventh">7</option>
+				<option value="eighth">8</option>
+				<option value="ninth">9</option>
+				<option value="tenth">10</option>
+				<option value="eleven">11</option>
+				<option value="twelve">12</option>
+				<option value="thirtheen">13</option>
+				<option value="fourtheen">14</option>
+				<option value="fifthteen">15</option>
+				<option value="sixthteen">16</option>
+				<option value="seventhteen">17</option>
+				<option value="ninthteen">19</option>
+				<option value="twentith">20</option>
+				<option value="twenty-firth">21</option>
+			</select>
+		</form>
+	</td>
+</tr>
+<tr>
+	<td>所在地：</td>
+	<td>
+		<form>
+			<select name="guojia">
+				<option value="first">中国</option>
+				<option value="second">美国</option>
+			</select>
+			<select name="shengfen">
+				<option value="hebei">河北</option>
+				<option value="henan">河南</option>
+			</select>
+			<select name="shi">
+				<option value="first">石家庄</option>
+				<option value="second">衡水</option>
+			</select>
+		</form>
+	</td>
+</tr>
+<tr>
+	<td>验证码：</td>
+	<td><input type="text" name="yanzhengma"><img src="image/yanzhengma.jpg" height="25"></td>
+</tr>
+<tr>
+	<td>证件类型：</td>
+	<td>
+		<form>
+			<select name="zhengjianleixing">
+				<option value="身份证">身份证</option>
+				<option value="驾驶证">驾驶证</option>
+			</select>
+		</form>
+	</td>
+</tr>
+<tr>
+	<td>证件号：</td>
+	<td>
+		<input type="text" name="zhengjianhao">
+	</td>
+</tr>
+<tr>
+	<td>爱好：</td>
+	<td>
+		<form>
+			<input type="checkbox" name="music">音乐
+			<input type="checkbox" name="reading">读书
+			<input type="checkbox" name="danceing">跳舞
+			<input type="checkbox" name="chess">下棋
+			<input type="checkbox" name="others">其他
+		</form>
+	</td>
+</tr>
+<tr>
+	<td>说明：</td>
+	<td>
+		<form>
+			<textarea rows="10" cols="35"></textarea>
+		</form>
+	</td>
+</tr>
+<tr>
+	<td>上传头像</td>
+	<td>
+		<form>
+			<input type="file" name="shangchuantouxiang">
+		</form>
+	</td>
+</tr>
+<tr>
+	<td colspan="2">
+		<form>
+			<input type="submit" name="submit" value="提交">
+			<input type="button" name="button" value="重置">
+			<input type="button" name="button" value="按钮">
+		</form>
+	</td>
+</tr>
+</table>
+</body>
+</html>

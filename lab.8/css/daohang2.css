@@ -1,0 +1,41 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 1px
+}
+#a{
+	border-color: black
+}
+ul{
+	list-style-type: none;
+	list-style-image: url(../image/bj.gif); 
+	background-image: url(../image/bj.gif);
+	width: 183px;
+}
+ul li{
+	width: 170px;
+	margin-left: 40px;
+	height: 60px;
+	padding-top: 10px;
+	background-image: url(../image/baibiaoti.png);
+	background-size: 170px 300px;
+	background-repeat: no-repeat;
+	background-position: 90%;
+}
+#footerdiv{
+	background-image:url(../image/left_nav_bottom.gif);
+	width: 150px;
+	height: 40px;
+}
+#新闻中心{
+	background-image: url(../images/lvbiaoti.png);
+	width: 170px;
+	height: 18px;
+	color: white;
+	text-align: center;
+	padding-top: 12px;
+}
+div{
+	text-align: center;
+	background-image: url(../images/baibiaoti.png);
+}

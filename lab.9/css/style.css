@@ -1,0 +1,216 @@
+*{
+	
+	color: #522a06;
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+}
+body{
+	background-image: url(../images/bodybg.gif);
+}
+a{
+	text-decoration: none;
+}
+#header{   
+    height: 210px;
+	background-image: url(../images/bg.gif);
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-position: 50% 0%;
+}
+#banner{
+	padding-left: 80px;
+	padding-top: 30px;
+}
+#nav{
+	background-image: url(../images/nav.jpg);
+	height: 40px;
+	margin-top: 33px;
+	border:0px blue solid;
+}
+#nav ul{
+	width:800px;
+	height:40px;
+	border:0px pink solid;
+}
+/*#a1{
+	float: left;
+	padding-left: 80px;
+}
+.a2{
+    padding-left: 30px;
+}
+.nava{
+	color: white;
+	font-family:"宋体";
+	padding-left: 30px;
+	float: left;
+}*/
+.a1{
+	list-style-type: none;
+	float: left;
+	padding-left: 80px;
+	padding-top: 10px;
+	color: white;
+    margin-top: 2px;
+}
+.a2{
+	list-style-type: none;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	border-left:2px white solid;
+	margin-left: 4px;
+	margin-top: 2px;
+	border-top: none; 
+}
+#search{
+	float: right;
+	height:25px;
+	margin: 10px;
+	border:0px black solid;
+	position:relative;
+	top:-45px;
+	right:200px;
+}
+#search1{
+	width:140px;
+	height:20px;
+	background-color:#f8f5ee;
+}
+#search2{
+	width:44px;
+	height:21px;
+	background-color:#000;
+	color:#fff;
+	border:0px solid #f8f5ee;
+}
+.nava{
+	color:white;
+}
+#content{
+	float: left;
+	width: 1300px;
+}
+.c1{
+	float: left;
+	width: 324px;
+	height: 242px;
+	/*background-color: red;*/
+	margin-left: 80px;
+	margin-top: 20px;
+	background-image: url(../images/news_bg.png);
+}
+.c2{
+	float: left;
+	width: 500px;
+	height: 242px;
+/*	background-color: green;*/
+	margin-top: 20px;
+	margin-left: 40px;
+}
+#news{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+#p1{
+    text-align: center;
+}
+.c2{
+	/*float: left;*/
+	width: 350px;
+	height: 242px
+	/*padding-left:50px;*/
+}
+.c3{
+	float: left;
+	width: 340px;
+	height: 242px;
+	/*background-color: blue;*/
+	margin-top: 20px;
+	margin-left: 40px;
+}
+#board{
+    position: absolute;
+    right: 260px;
+    padding-right: 50px;
+}
+#boardbg{
+	background-image: url(../images/board_bg.png);
+	padding-top: 35px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 340px 200px;
+}
+#ul1{
+	/*margin-top: 20px;*/
+	margin-left: 3px;
+	font-size: 12px;
+}
+#ul2{
+	margin-left: 20px;
+	font-size: 12px;
+}
+#p2{
+	height: 25px;
+}
+.content2{
+
+}
+#xueshuzhengming{
+	float: left;
+	width: 324px;
+	height: 242px;
+	/*background-color: red;*/
+	margin-left: 80px;
+	margin-top: 20px;
+	/*background-image: url(../images/news_bg.png);*/
+}
+#shutanxinwen{
+	float: left;
+	width: 400px;
+	height: 242px;
+/*	background-color: red;*/
+	margin-left: 40px;
+	margin-top: 20px;
+	/*background-image: url(../images/news_bg.png);*/
+}
+#mingjiazhanting{
+	float: left;
+	width: 330px;
+	height: 500px;
+	/*background-color: red;*/
+	margin-left: 20px;
+	margin-top: 20px;
+	background-image: url(../images/名家.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#show{
+	padding-top: 30px;
+}
+#mingjia{
+	padding-left: 15px;
+	padding-top: 40px;
+}
+#yanzhaofengcai{
+	float: left;
+	width: 680px;
+	height: 230px;
+	/*background-color: red;*/
+	margin-left: 80px;
+	position: relative;
+	top: -250px;
+	/*margin-top: 20px*/;
+	background-image: url(../images/fengcai_bg2.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#more1{
+	position: relative;
+	left: 96px;
+}
+#fengcai1{
+	margin-left: 30px;
+	margin-top: 15px;
+}

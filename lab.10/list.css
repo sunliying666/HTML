@@ -1,0 +1,437 @@
+*{
+
+	text-align: center;
+
+	color:#522a06;
+
+	padding:0px;
+
+	margin:0px auto;
+
+	border:0px;
+
+	font-family:"宋体";
+
+}
+
+body{
+
+	font-size:12px;
+
+	background-image:url(../images/bodybg.gif);
+
+	background-repeat: no-repeat;
+
+}
+
+a:link{
+
+	text-decoration:none;
+
+	color:#522a06;
+
+}
+
+a:hover{
+
+	text-decoration:underline;
+
+}
+
+#header{
+
+	height:205px;
+
+	background-image:url(../images/bg.gif);
+
+	background-repeat:no-repeat;
+
+	background-position:50% 0%;
+
+}
+
+#banner{
+
+	width:1000px;
+
+	height:164px;
+
+	position:center;
+
+}
+
+#logo{
+
+	position:absolute;
+
+	top:38px;
+
+	left:10%;
+
+}
+
+#nav{
+
+	height:40px;
+
+	background-image:url(../images/nav.jpg);
+
+	background-repeat:no-repeat;
+
+}
+
+.nav_body{
+
+	width:1000px;
+
+	position:center;
+
+}
+
+.nav_content{
+
+	width:800px;
+
+	font-weight:bold;
+
+	color:#fff;
+
+}
+
+.cli{
+
+	float:left;
+
+	list-style-type:none;
+
+	padding-left:10px;
+
+}
+
+.thr{
+
+	border-left:2px solid white;
+
+	padding-left:5px;
+
+	height:40px;
+
+	line-height:40px;
+
+	color:white;
+
+}
+
+.thr:link{
+
+	text-decoration:none;
+
+	color:white;
+
+}
+
+.thr:visited{
+
+	text-decoration:none;
+
+}
+
+.thr:hover{
+
+	color:#f9f603;
+
+	text-decoration:underline;
+
+}
+
+.thr:active{
+
+	text-decoration:none;
+
+}
+
+#nav_index{
+
+	color:#f9f603;
+
+	height:40px;
+
+	line-height:40px;
+
+	text-decoration:none;
+
+}
+
+.nav_search{
+
+	position: absolute;
+
+	right:15%;
+
+	top:170px;
+
+}
+
+#search1{
+
+	width:140px;
+
+	height:19px;
+
+	background-color:#f8f5ee;
+
+}
+
+#search2{
+
+	width:44px;
+
+	height:21px;
+
+	background-color:#000;
+
+	color:#fff;
+
+	border:1px solid #f8f5ee;
+
+}
+
+#blank{
+
+	width:75%;
+
+	height:30px;
+
+	margin:0px 0px 0px 0px;
+
+	font-size:14px;
+
+	line-height:30px;
+
+	color:#8B2500;
+
+
+
+}
+
+#blank a:link{color:#8B2500;}
+
+#blank a:visited{color:#8B2500;}
+
+#blank a:hover{color:green;}
+
+#blank a:active{color:red;}
+
+#firstlist a:link{color:#4F4F4F;}
+
+#firstlist a:visited{color:#4F4F4F;}
+
+#firstlist a:hover{color:green;}
+
+#firstlist a:active{color:red;}
+
+#student a:link{color:#8B2500}
+
+#student a:visited{color:#8B2500}
+
+#student a:hover{color:green}
+
+#student a:active{color:red}
+
+#content{width:75%;margin:0px auto;}
+
+#left{width:22%;height:600px;float:left;}
+
+#right{width:77%;height:600px;float:left;}
+
+#first{
+
+	width:200px;
+
+	height:270px;
+
+	border:1px grey solid;
+
+	color:#4F4F4F;
+
+	background-color:#EEE9E9;
+
+	font-size:15px;
+
+}
+
+#firstlist{
+
+	width:120px;
+
+	height:200px;
+
+	margin-left:35px;
+
+}
+
+#first ul li{width:116px;height:30px;}
+
+#student{
+
+	background-image:url(../images/menubg.gif);
+
+	background-repeat:no-repeat;
+
+	color:#8B0000;
+
+	width:116px;
+
+	height:29px;
+
+}
+
+#second{
+
+	margin-top:30px;
+
+	width:200px;
+
+	height:160px;
+
+	border:1px grey solid;
+
+	color:#8B2500;
+
+	background-color:#EEE9E9;
+
+	font-size:15px;
+
+}
+
+#secondpic{width:200px;height:30px;}
+
+#secondlist{
+
+	width:120px;
+
+	height:200px;
+
+	margin-left:50px;
+
+}
+
+#third{
+
+	margin-top:30px;
+
+	width:200px;
+
+	height:64px;
+
+	border:1px grey solid;
+
+}
+
+#rtop{
+
+	width:760px;
+
+	height:45px;
+
+	border:1px grey solid;
+
+	background-color:#EEE9E9;
+
+	background-image:url(../images/listtitle.png);
+
+	background-repeat:no-repeat;
+
+	margin-left:20px;
+
+	color:#8B0000;
+
+	font-size:18px;
+
+}
+
+#word{
+
+	width:100px;height:30px;
+
+	margin-left:50px;
+
+	margin-top:10px;
+
+}
+
+#list1 li{
+
+	line-height:28px;
+
+	list-style-type:square;
+
+	list-style-position:inside;
+
+	color:#8B2500;
+
+}
+
+#list2 li{line-height:28px;color:#8B2500;}
+
+#list1{
+
+	width:620px;
+
+	height:520px;
+
+	float:left;
+
+	margin-left:20px;
+
+}
+
+#list2{
+
+	float:left;
+
+	width:130px;
+
+	height:520px;
+
+}
+
+#rbottom{
+
+	float:left;
+
+	width:500px;
+
+	height:30px;
+
+	margin-left:250px;
+
+	color:#8B2500;
+
+}
+
+#rbottom li{
+
+	display:inline;
+
+	width:50px;
+
+	height:30px;
+
+	border:1px #8B2500 solid;
+
+	font-size:15px;
+
+}
+
+#footer{
+
+	padding-top:50px;
+
+	height:105px;
+
+	clear:both;
+
+	background:url(../images/foot.gif);
+
+}

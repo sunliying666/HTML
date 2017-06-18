@@ -1,0 +1,27 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.imgage{
+	float:left;
+	border:0.5px solid grey;
+	margin:80px;
+	padding:5px;
+}
+.word{
+	text-align:center;
+	
+}
+div.imgage img{
+	display:inline;
+	margin:40px;
+	border:1px solid #bebebe;
+	width:200px;
+	height:160px;
+}
+div.imgage a:link img{
+	opacity:0.5;border:1px solid #333333;
+}
+div.imgage a:hover img{
+	border:1px solid #333333;opacity:1;
+}

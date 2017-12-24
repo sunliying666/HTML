@@ -457,8 +457,8 @@ presentpic28.onmouseout=function(){
 }
 
 
-function Star() { 
-   this.speed=10; 
+function Flower() { 
+   this.speed=15; 
    this.img=new Image(); 
    this.img.src="img/"+parseInt(Math.random()*10+1)+".gif"; 
    this.img.style.width=80+'px'; 
@@ -469,7 +469,7 @@ function Star() {
    this.img.position="absolute";
   } 
   
-  Star.prototype.slip=function () { 
+  Flower.prototype.slip=function () { 
   
    var that=this; 
    function move() { 
@@ -481,12 +481,17 @@ function Star() {
      that.img.style.height=0; 
      that.img.style.width=0; 
     } 
+    if(that.img.offsetTop>4760){ 
+     clearInterval(sh); 
+     that.img.style.height=0; 
+     that.img.style.width=0; 
+    } 
    } 
    var sh=setInterval(move,100); 
   } 
   
    setInterval(function () { 
     for(var i=1;i<5;i++){ 
-    new Star().slip(); 
+    new Flower().slip(); 
     } 
-   },1000) 
+   },1000);

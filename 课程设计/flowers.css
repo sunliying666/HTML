@@ -1,5 +1,5 @@
 .flowers{
-		/*border: 1px solid #000;*/
+		border: 1px solid #000;
 		width: 1330px;
 		height: 4760px;
 		margin:0 auto;
@@ -632,7 +632,7 @@ a{
 	text-align: center;
 }
 .hideb1,.hideb3,.hideb4,.hideb5,.hideb6,.hideb8{
-	background-color: #ffc0bb;
+	background-color: #c2acd1;
 	width: 234px;
 	height: 55px;
 	position:relative;
@@ -656,7 +656,7 @@ a{
 	color: #FD6600;
 }
 .hideb2,.hideb7{
-	background-color: #ffc0bb;
+	background-color: #c2acd1;
 	width: 234px;
 	height: 55px;
 	position:relative;
@@ -934,7 +934,7 @@ a{
 	text-align: center;
 }
 .hided1,.hided3,.hided4,.hided5,.hided6,.hided8{
-	background-color: #ffc0bb;
+	background-color: #764e42;
 	width: 234px;
 	height: 55px;
 	position:relative;
@@ -958,7 +958,7 @@ a{
 	color: #FD6600;
 }
 .hided2,.hided7{
-	background-color: #ffc0bb;
+	background-color:#764e42;
 	width: 234px;
 	height: 55px;
 	position:relative;
@@ -1087,7 +1087,7 @@ a{
 	text-align: center;
 }
 .hidee1,.hidee3,.hidee4,.hidee5,.hidee6,.hidee8{
-	background-color: #ffc0bb;
+	background-color: #f2cb99;
 	width: 234px;
 	height: 55px;
 	position:relative;
@@ -1111,7 +1111,7 @@ a{
 	color: #FD6600;
 }
 .hidee2,.hidee7{
-	background-color: #ffc0bb;
+	background-color: #f2cb99;
 	width: 234px;
 	height: 55px;
 	position:relative;

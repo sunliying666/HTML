@@ -1,0 +1,1325 @@
+.flowers{
+		/*border: 1px solid #000;*/
+		width: 1330px;
+		height: 4760px;
+		margin:0 auto;
+		overflow: hidden;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.music{
+	position: absolute;
+	right: 6px;
+	top: 90px;
+	background-color: gray;
+}
+.top{
+	/*border:1px solid red;*/
+	width: 1330px;
+	height: 120px;
+	margin:0 auto;
+	border-color: #fff #fff #000 #fff;
+}
+.logo{
+	/*border: 1px solid blue;*/
+	width: 236px;
+	height: 78px;
+	float: left;
+	margin-left: 75px;
+	margin-top: 11px;
+}
+.logotext{
+	/*border: 1px solid blue;*/
+	width: 135px;
+	height: 61px;
+	float: left;
+	margin-top: 11px;
+	padding-top: 17px;
+	text-align: center;
+
+}
+.logotext1{
+	font-size: 18px;
+	color: gray;
+}
+.logotext2{
+	font-size: 13px;
+	color: gray;
+}
+.search{
+	/*border: 1px solid blue;*/
+	width: 330px;
+	height: 48px;
+	float: left;
+	margin-top: 11px;
+	margin-left: 110px;
+	padding-top: 30px;
+}
+.search1{
+	height: 40px;
+	width: 250px;
+	float: left;
+	border:1px solid #fd6600;
+}
+.search2{
+	float: left;
+	height: 40px;
+	width: 80px;
+	background-color: #fd6600;
+	border:1px solid #fd6600;
+}
+.phone{
+    /*border: 1px solid blue;*/
+    width: 162px;
+	height: 48px;
+	float: left;
+	margin-top: 11px;
+	margin-left: 50px;
+    padding-top: 30px;
+}
+.phone1{
+	/*border: 1px solid red;*/
+	width: 50px;
+	float: left;
+	height: 40px;
+}
+.phone2{
+	/*border:1px solid red; */
+	float: left;
+	padding-top: 6px;
+	height: 34px;
+}
+.cs{
+	/*border: 1px solid blue;*/
+	width: 120px;
+	height: 48px;
+	float: left;
+	margin-top: 11px;
+	margin-left: 30px;
+	padding-top: 30px;
+}
+.cs1{
+	/*border: 1px solid red;*/
+	width: 50px;
+	float: left;
+	height: 40px;
+}
+.cs2{
+	/*border:1px solid red; */
+	float: left;
+	padding-top: 6px;
+	height: 34px;
+}
+.content{
+	/*border: 1px solid brown;*/
+	width: 1330px;
+	height: 4415px;
+}
+.menu{
+	/*border: 1px solid #000;*/
+	width: 1330px;
+	height: 40px;
+}
+.meaunav{
+	border: 1px solid #595656;
+	width: 1330px;
+	height: 40px;
+	background-color: #595656;
+	position: absolute;
+	/*margin-left: 10px;*/
+}
+.menulistli{
+	list-style: none;
+	float: left;
+	padding-left: 100px;
+	margin-top: -5px;
+}
+.menulistli>a{
+	text-decoration: none;
+	color: white;
+}
+.meaunavlist{
+	/*border: 1px solid black;*/
+	width: 1330px;
+	height: 160px;
+	z-index: 1;
+	position: relative;
+}
+.flower{
+	/*border: 1px solid green;*/
+	display: none;
+	position: absolute;
+	margin-top: -14PX;
+	margin-left: 80px;
+	float: left;
+}
+.flowerul{
+	/*border: 1px solid red;*/
+	width: 80px;
+	height: 70px;
+	list-style: none;
+	text-align: center;
+}
+.flowerli{
+	background-color: #CDCDCD;
+	color:white;
+		}
+.preservedflowers{
+	/*border: 1px solid green;*/
+	margin-left: 10px;
+	float: left;
+	margin-top: -14px;
+	margin-left: 190px;
+	display: none;
+	position: absolute;
+}
+.preservedflowersul{
+	/*border: 1px solid yellow;*/
+	list-style: none; 
+	text-align: center;
+	width: 120px;
+	height: 110px;
+}
+.preservedflowersli{
+	background-color: #CDCDCD;
+	color:white;
+}
+.cake{
+	/*border: 1px solid blue;*/
+	width: 130px;
+	height: 156px;
+	float: left;
+	margin-top: -14px;
+	margin-left: 350px;
+	position: absolute;
+	display: none;
+}
+.cakeul{
+	/*border: 1px solid red;*/
+	text-align: center;
+	list-style: none;
+}
+.cakeli{
+	background-color: #CDCDCD;
+	color:white;
+}
+.gift{
+	/*border: 1px solid blue;*/
+	width: 150px;
+	height: 168px;
+	float: left;
+	margin-top: -14px;
+	margin-left: 470px;
+	position: absolute;
+	display: none;
+}
+.giftul{
+	/*border: 1px solid red;*/
+	text-align: center;
+	list-style: none;
+}
+.giftli{
+	background-color: #CDCDCD;
+	color:white;
+}
+.chocolate{
+	/*border: 1px solid blue;*/
+	width: 150px;
+	height: 169px;
+	float: left;
+	margin-top: -12px;
+	margin-left: 615px;
+	position: absolute;
+	display: none;
+}
+.chocolateul{
+	/*border: 1px solid red;*/
+	text-align: center;
+	list-style: none;
+	margin-top: 14px;
+}
+.chocolateli{
+	background-color: #CDCDCD;
+	color:white;
+}
+.languageofflowers{
+	/*border: 1px solid blue;*/
+	width: 150px;
+	height: 170px;
+	float: left;
+	margin: -15px;
+	margin-left: 770px;
+	position: absolute;
+	display: none;
+}
+.languageofflowersul{
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin-top:  17px;
+	list-style: none;
+}
+.languageofflowersli{
+	background-color: #CDCDCD;
+	color:white;
+}
+.enterprise{
+	/*border: 1px solid blue;*/
+	width: 150px;
+	height: 90px;
+	float: left;
+	margin-left: 940px;
+	margin-top: -13px;
+	position: absolute;
+	display: none;
+}
+.enterpriseul{
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin-top: 15px;
+	list-style: none;
+}
+.enterpriseli{
+	background-color: #CDCDCD;
+	color:white;
+}
+.christmas{
+	/*border: 1px solid blue;*/
+	width: 150px;
+	height: 80px;
+	float: left;
+	margin-left: 1090px;
+	margin-top: -13px;
+	position: absolute;
+	display: none;
+}
+.christmasul{
+	/*border: 1px solid red;*/
+	text-align: center;
+	margin-top: 15px;
+	list-style: none;
+}
+.christmasli{
+	background-color: #CDCDCD;
+	color:white;
+}
+.flowerul :link,.preservedflowersul :link,.cakeul :link,.giftul :link{
+	text-decoration: none;
+	color:#fd6600 ; 
+}
+.flowerul :hover,.preservedflowersul :hover,.cakeul :hover,.giftul :hover{
+	text-decoration: underline;
+	color:white ;
+	background-color:#fd6600;
+}
+.chocolateul :link,.languageofflowersul :link,.enterpriseul :link{
+	text-decoration: none;
+	color:#fd6600 ; 
+}
+.chocolateul :hover,.languageofflowersul :hover,.enterpriseul :hover{
+	text-decoration: underline;
+	color:white ;
+	background-color:#fd6600;
+}
+.christmasul :link{
+	text-decoration: none;
+	color:#fd6600 ; 
+}
+.christmasul :hover{
+	text-decoration: underline;
+	color:white ;
+	background-color:#fd6600;
+}
+#picScroll{
+	width: 1205px;
+	height: 440px;
+	overflow: hidden;
+	white-space:nowrap;
+	border: 1px solid black;
+	overflow-x: hidden;
+	margin-top: -150px;
+	margin-left: 65px;
+}
+.groom{
+	border: 1px solid #737373;
+	height: 200px;
+	width: 1205px;
+	margin-left: 65px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.groom1{
+	/*border: 1px solid purple;*/
+	background-color:#AACC03;
+	height: 200px;
+	width: 240px;
+	float: left;
+}
+.groom11{
+	/*border: 1px solid purple;*/
+	height: 81px;
+	width: 95px;
+	margin-left: 75px;
+	margin-top: 35px;
+}
+.groom12{
+	/*border: 1px solid purple;*/
+	height: 50px;
+	width: 240px;
+	font-size: 28px;
+	color: white;
+	text-align: center;
+}
+.groom2,.groom3,.groom4,.groom5{
+	border-left: 1px solid #737373;
+	height: 200px;
+	width: 240px;
+	float: left;
+}
+.groom5 a img{
+	height: 200px;
+	width: 240px;
+}
+/*love*/
+.love{
+	/*border:1px solid red;*/
+	width: 1205px;
+	height: 650px;
+	margin-left: 65px;
+	margin-top: 25px;
+}
+.lovetext{
+	/*border:1px solid red;*/
+	height: 32px;
+	width: 1205px;
+}
+.lovetext1{
+	/*border:1px solid red;*/
+	font-size: 23px;
+	color: gray;
+}
+.lovetext2{
+	/*border:1px solid red;*/
+	font-size: 15px;
+	color: gray;
+}
+.lovepic{
+	/*border:1px solid yellow;*/
+	width: 1205px;
+	height: 625px;
+	margin-top: 10px;
+}
+.lovepic1{
+	/*border:1px solid blue;*/
+	width: 244px;
+	height: 625px;
+	float: left;
+}
+.lovepic11{
+	/*border:1px solid yellow;*/
+	width: 243px;
+	height: 438px;
+}
+.lovepic12{
+	/*border:1px solid red;*/
+	width: 242px;
+	height: 165px;
+	background-color: #ffc0bb;
+}
+.lovepic12 div{
+	border: 1px solid white;
+	width: 190px;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 25px;
+}
+.lovepic12 div a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.lovepic12 div :hover{
+	text-decoration: underline;
+}
+.lovepic2{
+	/*border:1px solid black;*/
+	width: 955px;
+	height: 623px;
+	float: left;
+}
+.lovepic21,.lovepic22,.lovepic23,.lovepic24,.lovepic25,.lovepic26,.lovepic27,.lovepic28{
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+	width: 236px;
+	height: 300px;
+	float: left;
+}
+.lovepic24,.lovepic28{
+	border-right: 1px solid gray;
+}
+.lovepic24,.lovepic25,.lovepic26,.lovepic27,.lovepic28{
+	border-bottom: 1px solid gray;
+}
+.lovepic2 img{
+	width: 234px;
+	height: 245px;
+}
+.lovepic211{
+	/*border:1px solid red;*/
+	width: 234px;
+	height: 245px;
+	overflow: hidden;
+}
+.lovepic212{
+	/*border: 1px solid red;*/
+	width: 234px;
+	height: 45px;
+	margin-top: 5px;
+	font-size: 14px;
+	text-align: center;
+}
+.hidea1,.hidea3,.hidea4,.hidea5,.hidea6,.hidea8{
+	background-color: #ffc0bb;
+	width: 234px;
+	height: 55px;
+	position:relative;
+	bottom: 45px;
+	text-align: center;
+	display: none;
+}
+.hidea1 div,.hidea3 div,.hidea4 div,.hidea5 div,.hidea6 div,.hidea8 div{
+	/*border: 1px solid purple;*/
+	width: 200px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.hidea1 :link,.hidea3 :link,.hidea4 :link,.hidea5 :link,.hidea6 :link,.hidea8 :link{
+	text-decoration: none;
+	color: purple;
+}
+.hidea1 :hover,.hidea3 :hover,.hidea4 :hover,.hidea5 :hover,.hidea6 :hover,.hidea8 :hover{
+	text-decoration: underline;
+	color: #FD6600;
+}
+.hidea2,.hidea7{
+	background-color: #ffc0bb;
+	width: 234px;
+	height: 55px;
+	position:relative;
+	bottom: 45px;
+	text-align: center;
+	display: none;
+}
+.hidea2 div,.hidea7 div{
+	/*border: 1px solid purple;*/
+	width: 200px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.hidea2 :link,.hidea7 :link{
+	text-decoration: none;
+	color: purple;
+}
+.hidea2 :hover,.hidea7 :hover{
+	text-decoration: underline;
+	color: #FD6600;
+}
+/*parent */
+.parent{
+	/*border:1px solid red;*/
+	width: 1205px;
+	height: 650px;
+	margin-left: 65px;
+	margin-top: 25px;
+}
+.parenttext{
+	/*border:1px solid red;*/
+	height: 32px;
+	width: 1205px;
+}
+.parenttext1{
+	/*border:1px solid red;*/
+	font-size: 23px;
+	color: gray;
+}
+.parenttext2{
+	/*border:1px solid red;*/
+	font-size: 15px;
+	color: gray;
+}
+.parentpic{
+	/*border:1px solid yellow;*/
+	width: 1205px;
+	height: 625px;
+	margin-top: 10px;
+}
+.parentpic1{
+	/*border:1px solid blue;*/
+	width: 244px;
+	height: 625px;
+	float: left;
+}
+.parentpic11{
+	/*border:1px solid yellow;*/
+	width: 243px;
+	height: 438px;
+}
+.parentpic12{
+	/*border:1px solid red;*/
+	width: 242px;
+	height: 165px;
+	background-color: #c2acd1;
+}
+.parentpic12 div{
+	border: 1px solid white;
+	width: 190px;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 25px;
+}
+.parentpic12 div a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.parentpic12 div :hover{
+	text-decoration: underline;
+}
+.parentpic2{
+	/*border:1px solid black;*/
+	width: 955px;
+	height: 623px;
+	float: left;
+}
+.parentpic21,.parentpic22,.parentpic23,.parentpic24,.parentpic25,.parentpic26,.parentpic27,.parentpic28{
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+	width: 236px;
+	height: 300px;
+	float: left;
+}
+.parentpic24,.parentpic28{
+	border-right: 1px solid gray;
+}
+.parentpic24,.parentpic25,.parentpic26,.parentpic27,.parentpic28{
+	border-bottom: 1px solid gray;
+}
+.parentpic2 img{
+	width: 234px;
+	height: 245px;
+}
+.parentpic211{
+	/*border:1px solid red;*/
+	width: 234px;
+	height: 245px;
+	overflow: hidden;
+}
+.parentpic212{
+	/*border: 1px solid red;*/
+	width: 234px;
+	height: 45px;
+	margin-top: 5px;
+	font-size: 14px;
+	text-align: center;
+}
+.hideb1,.hideb3,.hideb4,.hideb5,.hideb6,.hideb8{
+	background-color: #ffc0bb;
+	width: 234px;
+	height: 55px;
+	position:relative;
+	bottom: 45px;
+	text-align: center;
+	display: none;
+}
+.hideb1 div,.hideb3 div,.hideb4 div,.hideb5 div,.hideb6 div,.hideb8 div{
+	/*border: 1px solid purple;*/
+	width: 200px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.hideb1 :link,.hideb3 :link,.hideb4 :link,.hideb5 :link,.hideb6 :link,.hideb8 :link{
+	text-decoration: none;
+	color: purple;
+}
+.hideb1 :hover,.hideb3 :hover,.hideb4 :hover,.hideb5 :hover,.hideb6 :hover,.hideb8 :hover{
+	text-decoration: underline;
+	color: #FD6600;
+}
+.hideb2,.hideb7{
+	background-color: #ffc0bb;
+	width: 234px;
+	height: 55px;
+	position:relative;
+	bottom: 45px;
+	text-align: center;
+	display: none;
+}
+.hideb2 div,.hideb7 div{
+	/*border: 1px solid purple;*/
+	width: 200px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.hideb2 :link,.hideb7 :link{
+	text-decoration: none;
+	color: purple;
+}
+.hideb2 :hover,.hideb7 :hover{
+	text-decoration: underline;
+	color: #FD6600;
+}
+/*immortal*/
+.immortal{
+	/*border:1px solid red;*/
+	width: 1205px;
+	height: 650px;
+	margin-left: 65px;
+	margin-top: 25px;
+}
+.immortaltext{
+	/*border:1px solid red;*/
+	height: 32px;
+	width: 1205px;
+}
+.immortaltext1{
+	/*border:1px solid red;*/
+	font-size: 23px;
+	color: gray;
+}
+.immortaltext2{
+	/*border:1px solid red;*/
+	font-size: 15px;
+	color: gray;
+}
+.immortalpic{
+	/*border:1px solid yellow;*/
+	width: 1205px;
+	height: 625px;
+	margin-top: 10px;
+}
+.immortalpic1{
+	/*border:1px solid blue;*/
+	width: 244px;
+	height: 625px;
+	float: left;
+}
+.immortalpic11{
+	/*border:1px solid yellow;*/
+	width: 243px;
+	height: 438px;
+}
+.immortalpic12{
+	/*border:1px solid red;*/
+	width: 242px;
+	height: 165px;
+	background-color: #d6d8ec;
+}
+.immortalpic12 div{
+	border: 1px solid white;
+	width: 190px;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 25px;
+}
+.immortalpic12 div a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.immortalpic12 div :hover{
+	text-decoration: underline;
+}
+.immortalpic2{
+	/*border:1px solid black;*/
+	width: 955px;
+	height: 623px;
+	float: left;
+}
+.immortalpic21,.immortalpic22,.immortalpic23,.immortalpic24,.immortalpic25,.immortalpic26,.immortalpic27,.immortalpic28{
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+	width: 236px;
+	height: 300px;
+	float: left;
+}
+.immortalpic24,.immortalpic28{
+	border-right: 1px solid gray;
+}
+.immortalpic24,.immortalpic25,.immortalpic26,.immortalpic27,.immortalpic28{
+	border-bottom: 1px solid gray;
+}
+.immortalpic2 img{
+	width: 234px;
+	height: 245px;
+}
+.immortalpic211{
+	/*border:1px solid red;*/
+	width: 234px;
+	height: 245px;
+	overflow: hidden;
+}
+.immortalpic212{
+	/*border: 1px solid red;*/
+	width: 234px;
+	height: 45px;
+	margin-top: 5px;
+	font-size: 14px;
+	text-align: center;
+}
+.hidec1,.hidec3,.hidec4,.hidec5,.hidec6,.hidec8{
+	background-color: #d6d8ec;
+	width: 234px;
+	height: 55px;
+	position:relative;
+	bottom: 45px;
+	text-align: center;
+	display: none;
+}
+.hidec1 div,.hidec3 div,.hidec4 div,.hidec5 div,.hidec6 div,.hidec8 div{
+	/*border: 1px solid purple;*/
+	width: 200px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.hidec1 :link,.hidec3 :link,.hidec4 :link,.hidec5 :link,.hidec6 :link,.hidec8 :link{
+	text-decoration: none;
+	color: purple;
+}
+.hidec1 :hover,.hidec3 :hover,.hidec4 :hover,.hidec5 :hover,.hidec6 :hover,.hidec8 :hover{
+	text-decoration: underline;
+	color: #FD6600;
+}
+.hidec2,.hidec7{
+	background-color: #d6d8ec;
+	width: 234px;
+	height: 55px;
+	position:relative;
+	bottom: 45px;
+	text-align: center;
+	display: none;
+}
+.hidec2 div,.hidec7 div{
+	/*border: 1px solid purple;*/
+	width: 200px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.hidec2 :link,.hidec7 :link{
+	text-decoration: none;
+	color: purple;
+}
+.hidec2 :hover,.hidec7 :hover{
+	text-decoration: underline;
+	color: #FD6600;
+}
+/*--------------angel-------------*/
+.angel{
+	/*border:1px solid red;*/
+	width: 1205px;
+	height: 650px;
+	margin-left: 65px;
+	margin-top: 25px;
+}
+.angeltext{
+	/*border:1px solid red;*/
+	height: 32px;
+	width: 1205px;
+}
+.angeltext1{
+	/*border:1px solid red;*/
+	font-size: 23px;
+	color: gray;
+}
+.angeltext2{
+	/*border:1px solid red;*/
+	font-size: 15px;
+	color: gray;
+}
+.angelpic{
+	/*border:1px solid yellow;*/
+	width: 1205px;
+	height: 625px;
+	margin-top: 10px;
+}
+.angelpic1{
+	/*border:1px solid blue;*/
+	width: 244px;
+	height: 625px;
+	float: left;
+}
+.angelpic11{
+	/*border:1px solid yellow;*/
+	width: 243px;
+	height: 438px;
+}
+.angelpic11 img{
+	width: 243px;
+	height: 438px;
+}
+.angelpic12{
+	/*border:1px solid red;*/
+	width: 242px;
+	height: 165px;
+	background-color: #764e42;
+}
+.angelpic12 div{
+	border: 1px solid white;
+	width: 190px;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 25px;
+}
+.angelpic12 div a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.angelpic12 div :hover{
+	text-decoration: underline;
+}
+.angelpic2{
+	/*border:1px solid black;*/
+	width: 955px;
+	height: 623px;
+	float: left;
+}
+.angelpic21,.angelpic22,.angelpic23,.angelpic24,.angelpic25,.angelpic26,.angelpic27,.angelpic28{
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+	width: 236px;
+	height: 300px;
+	float: left;
+}
+.angelpic24,.angelpic28{
+	border-right: 1px solid gray;
+}
+.angelpic24,.angelpic25,.angelpic26,.angelpic27,.angelpic28{
+	border-bottom: 1px solid gray;
+}
+.angelpic2 img{
+	width: 234px;
+	height: 245px;
+}
+.angelpic211{
+	/*border:1px solid red;*/
+	width: 234px;
+	height: 245px;
+	overflow: hidden;
+}
+.angelpic212{
+	/*border: 1px solid red;*/
+	width: 234px;
+	height: 45px;
+	margin-top: 5px;
+	font-size: 14px;
+	text-align: center;
+}
+.hided1,.hided3,.hided4,.hided5,.hided6,.hided8{
+	background-color: #ffc0bb;
+	width: 234px;
+	height: 55px;
+	position:relative;
+	bottom: 45px;
+	text-align: center;
+	display: none;
+}
+.hided1 div,.hided3 div,.hided4 div,.hided5 div,.hided6 div,.hided8 div{
+	/*border: 1px solid purple;*/
+	width: 200px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.hided1 :link,.hided3 :link,.hided4 :link,.hided5 :link,.hided6 :link,.hided8 :link{
+	text-decoration: none;
+	color: purple;
+}
+.hided1 :hover,.hided3 :hover,.hided4 :hover,.hided5 :hover,.hided6 :hover,.hided8 :hover{
+	text-decoration: underline;
+	color: #FD6600;
+}
+.hided2,.hided7{
+	background-color: #ffc0bb;
+	width: 234px;
+	height: 55px;
+	position:relative;
+	bottom: 45px;
+	text-align: center;
+	display: none;
+}
+.hided2 div,.hided7 div{
+	/*border: 1px solid purple;*/
+	width: 200px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.hided2 :link,.hided7 :link{
+	text-decoration: none;
+	color: purple;
+}
+.hided2 :hover,.hided7 :hover{
+	text-decoration: underline;
+	color: #FD6600;
+}
+/*--------------present-------------*/
+.present{
+	/*border:1px solid red;*/
+	width: 1205px;
+	height: 650px;
+	margin-left: 65px;
+	margin-top: 25px;
+}
+.presenttext{
+	/*border:1px solid red;*/
+	height: 32px;
+	width: 1205px;
+}
+.presenttext1{
+	/*border:1px solid red;*/
+	font-size: 23px;
+	color: gray;
+}
+.presenttext2{
+	/*border:1px solid red;*/
+	font-size: 15px;
+	color: gray;
+}
+.presentpic{
+	/*border:1px solid yellow;*/
+	width: 1205px;
+	height: 625px;
+	margin-top: 10px;
+}
+.presentpic1{
+	/*border:1px solid blue;*/
+	width: 244px;
+	height: 625px;
+	float: left;
+}
+.presentpic11{
+	/*border:1px solid yellow;*/
+	width: 243px;
+	height: 438px;
+}
+.presentpic11 img{
+	width: 243px;
+	height: 438px;
+}
+.presentpic12{
+	/*border:1px solid red;*/
+	width: 242px;
+	height: 165px;
+	background-color: #f2cb99;
+}
+.presentpic12 div{
+	border: 1px solid white;
+	width: 190px;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 25px;
+}
+.presentpic12 div a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.presentpic12 div :hover{
+	text-decoration: underline;
+}
+.presentpic2{
+	/*border:1px solid black;*/
+	width: 955px;
+	height: 623px;
+	float: left;
+}
+.presentpic21,.presentpic22,.presentpic23,.presentpic24,.presentpic25,.presentpic26,.presentpic27,.presentpic28{
+	border-left: 1px solid gray;
+	border-top: 1px solid gray;
+	width: 236px;
+	height: 300px;
+	float: left;
+}
+.presentpic24,.presentpic28{
+	border-right: 1px solid gray;
+}
+.presentpic24,.presentpic25,.presentpic26,.presentpic27,.presentpic28{
+	border-bottom: 1px solid gray;
+}
+.presentpic2 img{
+	width: 234px;
+	height: 245px;
+}
+.presentpic211{
+	/*border:1px solid red;*/
+	width: 234px;
+	height: 245px;
+	overflow: hidden;
+}
+.presentpic212{
+	/*border: 1px solid red;*/
+	width: 234px;
+	height: 45px;
+	margin-top: 5px;
+	font-size: 14px;
+	text-align: center;
+}
+.hidee1,.hidee3,.hidee4,.hidee5,.hidee6,.hidee8{
+	background-color: #ffc0bb;
+	width: 234px;
+	height: 55px;
+	position:relative;
+	bottom: 45px;
+	text-align: center;
+	display: none;
+}
+.hidee1 div,.hidee3 div,.hidee4 div,.hidee5 div,.hidee6 div,.hidee7 div,.hidee8 div{
+	/*border: 1px solid purple;*/
+	width: 200px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.hidee1 :link,.hidee3 :link,.hidee4 :link,.hidee5 :link,.hidee6 :link,.hidee7 :link,.hidee8 :link{
+	text-decoration: none;
+	color: purple;
+}
+.hidee1 :hover,.hidee3 :hover,.hidee4 :hover,.hidee5 :hover,.hidee6 :hover,.hidee7 :hover,.hidee8 :hover{
+	text-decoration: underline;
+	color: #FD6600;
+}
+.hidee2,.hidee7{
+	background-color: #ffc0bb;
+	width: 234px;
+	height: 55px;
+	position:relative;
+	bottom: 45px;
+	text-align: center;
+	display: none;
+}
+.hidee2 div{
+	/*border: 1px solid purple;*/
+	width: 200px;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.hidee2 :link{
+	text-decoration: none;
+	color: purple;
+}
+.hidee2 :hover{
+	text-decoration: underline;
+	color: #FD6600;
+}/*present*/
+/*-------------------------------judge----------------------------------*/
+.judge{
+	/*background-color: #f2f2f2;*/
+	/*border:1px solid black;*/
+	width: 1205px;
+	height: 320px;
+	margin-left: 65px;
+	margin-top: 25px;
+}
+.left{
+	/*border: 1px solid yellow;*/
+	width: 350px;
+	height: 300px;
+	float: left;
+}
+.lefttop{
+	/*border: 1px solid black;*/
+	background-color: #898989;
+	width: 352px;
+	height: 30px;
+}
+.lefttoptext{
+	/*border:1px solid black;*/
+	width: 100px;
+	height: 25px;
+	float: left;
+	color: white;
+	margin-left: 25px;
+	margin-top: 2px;
+}
+.lefttoppic{
+	/*border: 1px solid black;*/
+	float: left;
+	height: 30px;
+	margin-left: 189px;
+}
+.leftbottom{
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	width: 350px;
+	height: 280px;
+	font-size: 13px;
+	line-height: 28px;
+}
+.leftbottom  ul li :hover{
+	text-decoration: underline;
+	color: #ff6600;
+}
+.middle{
+	/*border: 1px solid blue;*/
+	width: 450px;
+	height: 310px;
+	float: left;
+	margin-left: 15px;
+}
+.middletop{
+	/*border: 1px solid black;*/
+	background-color: #898989;
+	width: 450px;
+	height: 30px;
+}
+.middletoptext{
+/*	border: 1px solid black;*/
+	width: 100px;
+	height: 25px;
+	float: left;
+	color: white;
+	margin-top: 2px;
+	margin-left: 18px;
+}
+.middletoppic{
+	/*border: 1px solid black;*/
+	height: 30px;
+	float: left;
+	margin-left: 297px;
+}
+.middlebottom{
+	height: 283px;
+	background-color: #f2f2f2;
+}
+.middlebottom1{
+	/*border: 1px solid black;*/
+	width: 450px;
+	height: 90px;
+}
+.middlebottom11{
+	/*border:1px solid red;*/
+	width: 45px;
+	height: 60px;
+	font-size: 12px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+.middlebottom11 div{
+	/*border: 1px solid black;*/
+	width: 39px;
+	height: 39px;
+	margin-left: 2px;
+	float: left;
+}
+.middlebottom12{
+	/*border: 1px solid black;*/
+	width: 370px;
+	height: 70px;
+	float: left;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.right{
+	/*border: 1px solid red;*/
+	width: 360px;
+	height: 298px;
+	float: left;
+	margin-left: 15px;
+}
+.righttop{
+	/*border: 1px solid black;*/
+	width: 362px;
+	height: 30px;
+	background-color: #898989;
+}
+.righttoptext{
+	/*border: 1px solid black;*/
+	width: 100px;
+	height: 25px;
+	float: left;
+	color: white;
+	margin-top: 2px;
+	margin-left: 25px;
+}
+.righttoppic{
+	/*border: 1px solid black;*/
+	height: 30px;
+	float: left;
+	margin-left: 200px;
+}
+.rightbottom{
+	border:1px solid #f2f2f2;
+	width: 360px;
+	height: 280px;
+	background-color: #f2f2f2;
+	font-size: 13px;
+	line-height: 28px;
+}
+.rightbottom  ul li :hover{
+	text-decoration: underline;
+	color: #ff6600;
+}
+.foot{
+	/*border: 1px solid brown;*/
+	width: 1330px;
+	height: 235px;
+}
+.footlist{
+	border: 1px solid #f2f2f2;
+	width: 1335px;
+	height: 50px;
+	/*margin-left: 65px;*/
+	margin-top: 25px;
+	background-color: #595656;
+}
+.footlist ul li a{
+	color: white;
+}
+.footlist ul li :hover{
+	text-decoration: underline;
+	color: #ff6900;
+}
+.footlist ul li{
+	float: left;
+	list-style: none;
+	padding-left: 40px;
+	list-style: none;
+}
+.footer{
+	background-color: blue;
+	width: 1335px;
+	height: 130px;
+	text-align: center;
+	padding-top: 25px;
+	color: white;
+}/*foot*/
+img{
+	position: absolute;
+}
+/*body{
+	background-size:100%;
+}*/

@@ -1,9 +1,12 @@
 .flowers{
-		border: 1px solid #000;
+		/*border: 1px solid #000;*/
 		width: 1330px;
 		height: 4760px;
 		margin:0 auto;
 		overflow: hidden;
+}
+img{
+	position: absolute;
 }
 a{
 	text-decoration: none;
@@ -1317,9 +1320,7 @@ a{
 	padding-top: 25px;
 	color: white;
 }/*foot*/
-img{
-	position: absolute;
-}
+
 /*body{
 	background-size:100%;
 }*/

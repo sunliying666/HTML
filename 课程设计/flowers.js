@@ -1,3 +1,7 @@
+var xue=document.getElementsByClassName('xue')[0];
+xue.onmouseover=function(){
+	
+}
 // 给菜单栏添加隐藏菜单
 	var menulistli0=document.getElementsByClassName('menulistli')[0];
 	var flower=document.getElementsByClassName('flower')[0];
